@@ -1,0 +1,70 @@
+<!--<!DOCTYPE html>-->
+<!--<html xmlns:th="http://www.thymeleaf.org" lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>Product List</title>-->
+<!--    <th:block th:replace="~{layout::link-css}"></th:block>-->
+<!--    <th:block th:replace="~{layout::custom-css}"></th:block>-->
+<!--</head>-->
+<!--<body>-->
+<!--<div th:replace="~{layout::header}"></div>-->
+
+<!--<div class="container mt-4">-->
+<!--    <h1>Product List</h1>-->
+<!--    <table class="table">-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>ID</th>-->
+<!--            <th>Name</th>-->
+<!--            <th>Description</th>-->
+<!--            <th>ROM</th>-->
+<!--            <th>RAM</th>-->
+<!--            <th>CPU</th>-->
+<!--            <th>GPU</th>-->
+<!--            <th>Brand</th>-->
+<!--            <th>Price</th>-->
+<!--            <th>Enabled</th>-->
+<!--            <th>Actions</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr th:each="product : ${products}">-->
+<!--            <td th:text="${product.id}">ID</td>-->
+<!--            <td th:text="${product.name}">Name</td>-->
+<!--            <td th:text="${product.description}">Description</td>-->
+<!--            <td th:text="${product.rom}">ROM</td>-->
+<!--            <td th:text="${product.ram}">RAM</td>-->
+<!--            <td th:text="${product.cpu}">CPU</td>-->
+<!--            <td th:text="${product.gpu}">GPU</td>-->
+<!--            <td th:text="${product.brand}">Brand</td>-->
+<!--            <td th:text="${product.price}">Price</td>-->
+<!--            <td th:text="${product.enabled} ? 'Yes' : 'No'">Enabled</td>-->
+<!--            &lt;!&ndash; Add more columns as needed &ndash;&gt;-->
+<!--            <td>-->
+<!--                <a th:href="@{/products/details/{id}(id=${product.id})}" class="btn btn-info btn-sm">Details</a>-->
+<!--                <a th:href="@{/products/edit/{id}(id=${product.id})}" class="btn btn-primary btn-sm">Edit</a>-->
+<!--                <a th:href="@{/products/delete/{id}(id=${product.id})}" class="btn btn-danger btn-sm">Delete</a>-->
+<!--            </td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--</div>-->
+
+<!--<div th:replace="~{layout::footer}"></div>-->
+
+<!--<th:block th:replace="~{layout::scripts}"></th:block>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lỗi</title>
+</head>
+<body>
+<h1>aa</h1>
+<p>Cn.</p>
+</body>
+</html>
